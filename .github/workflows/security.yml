@@ -28,6 +28,6 @@ jobs:
         with: { languages: kotlin }
       - uses: actions/setup-java@v4
         with: { distribution: temurin, java-version: 17 }
-      - uses: gradle/actions/setup-gradle@v3
+      - uses: gradle/actions/setup-gradle@v6
       - run: ./gradlew :composeApp:compileDebugKotlinAndroid
       - uses: github/codeql-action/analyze@v3
