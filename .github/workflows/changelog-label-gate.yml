@@ -15,7 +15,7 @@ jobs:
         with:
           script: |
             const labels = context.payload.pull_request.labels.map(l => l.name);
-            const required = ['breaking', 'feature', 'fix', 'chore', 'docs', 'deps', 'ci', 'skip-changelog'];
+            const required = ['breaking', 'feature', 'fix', 'chore', 'docs', 'deps', 'ci', 'skip-changelog', 'dependencies'];
             const hasRequired = labels.some(l => required.includes(l));
             if (!hasRequired) {
               core.setFailed(`PR must have one of: ${required.join(', ')}`);
