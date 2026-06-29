@@ -15,7 +15,7 @@ lifecycle               = "2.8.4"
 navigation              = "2.9.1"
 
 # Ktor
-ktor                    = "3.0.3"
+ktor                    = "3.5.1"
 
 # Koin (DI – KMP native)
 koin                    = "4.0.0"
