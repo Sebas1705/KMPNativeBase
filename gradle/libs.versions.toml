@@ -18,7 +18,7 @@ navigation              = "2.9.1"
 ktor                    = "3.0.3"
 
 # Koin (DI – KMP native)
-koin                    = "4.0.0"
+koin                    = "4.2.2"
 
 # SQLDelight (local DB – KMP native)
 sqldelight              = "2.0.2"
